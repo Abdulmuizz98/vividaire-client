@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "vividaire-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
