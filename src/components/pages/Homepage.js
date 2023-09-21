@@ -5,6 +5,8 @@ import FeaturedSection from "./homepage/FeaturedSection";
 import ArticlesSection from "./homepage/ArticlesSection";
 import "./Homepage.css";
 import closetImage from "../../assets/closet_img.png";
+import tumblerOneImage from "../../assets/tumbler_one_img.png";
+import tumblerTwoImage from "../../assets/tumbler_two_img.png";
 
 const Homepage = () => {
   return (
@@ -28,17 +30,24 @@ const Homepage = () => {
             <a href="">read more</a>
           </article>
           <div className="about-section-hero">
-            <img src={closetImage} alt="" />
+            <img
+              src={closetImage}
+              alt="A fancy shelf with a lot of interior design lamps"
+            />
           </div>
         </section>
         <ArticlesSection />
         <section className="follow-us-section">
-          <div className="sprite-one"></div>
-          <div>
-            <p>follow us on instagram to see our latest posts.</p>
+          <div className="sprite-one">
+            <img src={tumblerOneImage} alt="first tumbler with wine" />
+          </div>
+          <div className="follow-us-article">
+            <p>Follow us on instagram to see our latest posts.</p>
             <a href="">@vividairecollection</a>
           </div>
-          <div className="sprite-two"></div>
+          <div className="sprite-two">
+            <img src={tumblerTwoImage} alt="second tumbler with wine" />
+          </div>
         </section>
       </main>
       <Footer />

@@ -4,7 +4,6 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-weight: lighter;
-    /* margin: 0 var(--margin-md) */
 }
 
 .homepage-main h2{
@@ -18,7 +17,7 @@
 }
 
 .homepage-main section{
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .homepage-main .about-section{
@@ -47,4 +46,30 @@
 .homepage-main .about-section .about-section-article p{
     margin: 3.2rem 0;
     font-weight: 100;
+}
+
+.homepage-main .follow-us-section{
+    display: flex;
+    height: 62.4rem;
+    margin-bottom: 15rem;
+
+}
+
+.homepage-main .follow-us-section .follow-us-article{
+    flex: 1 1 43%;
+    padding: 24.4rem 16.4rem 24.4rem 5rem;
+}
+.homepage-main .follow-us-section .follow-us-article p{
+    margin-bottom: 3.2rem;
+    font-family: var(--tertiary-font-family);
+    font-size: var(--font-size-lg);
+    letter-spacing: 2px;;
+}
+
+.homepage-main .follow-us-section .sprite-one{
+    flex: 1 1 11%;
+}
+
+.homepage-main .follow-us-section .sprite-two{
+    flex: 1 1 46%;
 }

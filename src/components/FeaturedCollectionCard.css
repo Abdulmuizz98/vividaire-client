@@ -4,13 +4,11 @@
     gap: 2.4rem;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
 }
 
 .featured-collection-card figure{
     width: 40.2rem;
     height: 65.9rem;
-    border: 1px solid red;
 }
 
 .featured-collection-card .collection-action{
