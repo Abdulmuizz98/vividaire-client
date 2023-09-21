@@ -1,8 +1,7 @@
-import React from "react";
 import "./Header.css";
 import { VdPerson, VdSearch, VdFavorite, VdDoublePolygon } from "../Icons";
 
-function Header() {
+const Header = () => {
   return (
     <header className="header">
       <nav className="nav">
@@ -42,6 +41,6 @@ function Header() {
       </nav>
     </header>
   );
-}
+};
 
 export default Header;

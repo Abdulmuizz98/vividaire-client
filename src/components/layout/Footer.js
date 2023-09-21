@@ -1,12 +1,11 @@
 import React from "react";
 import { useState } from "react";
 import { VdCaretRight, VdDoublePolygon } from "../Icons";
-// import { PiCaretRightBold } from "react-icons/pi";
 import logo from "../../assets/vividaire_logo.svg";
 import Copy from "../Copy";
 import "./Footer.css";
 
-function Footer() {
+const Footer = () => {
   const [email, setEmail] = useState("");
 
   return (
@@ -71,6 +70,6 @@ function Footer() {
       <div className="footer-divider second"></div>
     </footer>
   );
-}
+};
 
 export default Footer;

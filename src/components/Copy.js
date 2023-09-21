@@ -1,6 +1,4 @@
-import React from "react";
-
-function Copy() {
+const Copy = () => {
   return (
     <div className="copy place-items-bottom-left">
       <p>
@@ -8,6 +6,6 @@ function Copy() {
       </p>
     </div>
   );
-}
+};
 
 export default Copy;

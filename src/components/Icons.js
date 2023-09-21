@@ -1,5 +1,3 @@
-import React from "react";
-
 export const VdClose = () => (
   <svg
     className="icon"
@@ -146,5 +144,107 @@ export const VdDoublePolygon = ({ color, width, height }) => (
       d="M19.1218 40.5925L20.5652 38.0925L36.6781 10.1842L38.1215 7.68418H35.2347H3.00896H0.122215L1.56559 10.1842L17.6785 38.0925L19.1218 40.5925ZM19.1218 35.5925L33.7913 10.1842H4.45234L19.1218 35.5925ZM18.9996 0L17.5563 2.5L1.44338 30.4083L0 32.9083H2.88675H35.1125H37.9993L36.5559 30.4083L20.443 2.5L18.9996 0ZM18.9996 5L4.33013 30.4083H33.6691L18.9996 5Z"
       fill={color}
     />
+  </svg>
+);
+
+export const VdStar = () => (
+  <svg
+    width="44"
+    height="51"
+    viewBox="0 0 44 51"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M22 5.96588L25.3322 17.6418L25.7307 19.0383L27.1393 18.6852L38.917 15.7329L30.4714 24.4567L29.4614 25.5L30.4714 26.5433L38.917 35.2671L27.1393 32.3148L25.7307 31.9617L25.3322 33.3582L22 45.0341L18.6678 33.3582L18.2693 31.9617L16.8607 32.3148L5.08295 35.2671L13.5285 26.5433L14.5386 25.5L13.5285 24.4567L5.08295 15.7329L16.8607 18.6852L18.2693 19.0383L18.6678 17.6418L22 5.96588Z"
+      stroke="#825E52"
+      stroke-width="3"
+    />
+  </svg>
+);
+
+export const VdSmallCircle = () => (
+  <svg
+    width="5"
+    height="6"
+    viewBox="0 0 5 6"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle cx="2.5" cy="3" r="2.5" fill="#825E52" />
+  </svg>
+);
+
+export const VdBigCircle = () => (
+  <svg
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle cx="5" cy="5" r="5" fill="#825E52" />
+  </svg>
+);
+
+export const VdRightArrowOutline = () => (
+  <svg
+    width="26"
+    height="16"
+    viewBox="0 0 26 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M25.2071 8.70711C25.5976 8.31658 25.5976 7.68342 25.2071 7.29289L18.8431 0.928932C18.4526 0.538408 17.8195 0.538408 17.4289 0.928932C17.0384 1.31946 17.0384 1.95262 17.4289 2.34315L23.0858 8L17.4289 13.6569C17.0384 14.0474 17.0384 14.6805 17.4289 15.0711C17.8195 15.4616 18.4526 15.4616 18.8431 15.0711L25.2071 8.70711ZM0.5 9H24.5V7H0.5V9Z"
+      fill="#825E52"
+    />
+  </svg>
+);
+
+export const VdLeftArrow = () => (
+  <svg
+    width="45"
+    height="13"
+    viewBox="0 0 45 13"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M0 6.5L10 12.2735V0.726497L0 6.5ZM9 7.5H45V5.5H9V7.5Z"
+      fill="#825E52"
+      fill-opacity="0.5"
+    />
+  </svg>
+);
+
+export const VdRightArrow = () => (
+  <svg
+    width="45"
+    height="13"
+    viewBox="0 0 45 13"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M45 6.5L35 0.726497V12.2735L45 6.5ZM0 7.5H36V5.5H0V7.5Z"
+      fill="#825E52"
+    />
+  </svg>
+);
+
+export const VdAesteticBorder = () => (
+  <svg
+    width="86"
+    height="10"
+    viewBox="0 0 86 10"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle cx="2.5" cy="5" r="2.5" fill="#825E52" />
+    <circle cx="19.5" cy="5" r="2.5" fill="#825E52" />
+    <circle cx="43" cy="5" r="5" fill="#825E52" />
+    <circle cx="66.5" cy="5" r="2.5" fill="#825E52" />
+    <circle cx="83.5" cy="5" r="2.5" fill="#825E52" />
   </svg>
 );
