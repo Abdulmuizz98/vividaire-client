@@ -14,10 +14,37 @@
     font-size: 2rem;
     text-decoration: underline;
     text-underline-offset: 5px;
-    text-decoration-thickness: 1.5px;
+    text-decoration-thickness: 1px;
 }
 
 .homepage-main section{
     border: 2px solid red;
 }
 
+.homepage-main .about-section{
+    display: flex;
+    height: 81.9rem;
+    margin-top: 18.6rem;
+
+}
+.homepage-main .about-section .about-section-article{
+    flex: 1 1 44%;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 17.4rem 16.5rem 17.4rem 8.5rem;
+}
+
+.homepage-main .about-section .about-section-hero{
+ flex: 1 1 56%;   
+}
+
+.homepage-main .about-section .about-section-article p:first-of-type{
+    font-family: var(--tertiary-font-family);
+    font-size: var(--font-size-lg);
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.homepage-main .about-section .about-section-article p{
+    margin: 3.2rem 0;
+    font-weight: 100;
+}

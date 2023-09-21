@@ -4,6 +4,7 @@ import IntroSection from "./homepage/IntroSection";
 import FeaturedSection from "./homepage/FeaturedSection";
 import ArticlesSection from "./homepage/ArticlesSection";
 import "./Homepage.css";
+import closetImage from "../../assets/closet_img.png";
 
 const Homepage = () => {
   return (
@@ -13,10 +14,10 @@ const Homepage = () => {
         <IntroSection />
         <FeaturedSection />
         <section className="about-section">
-          <article>
+          <article className="about-section-article">
             <h2>About Vividaire</h2>
             <p>
-              specifically curated to make your everyday brighter and easier.
+              Specifically curated to make your everyday brighter and easier.
             </p>
             <p>
               At vividaire we believe that beauty, quality, and accessibility
@@ -26,7 +27,9 @@ const Homepage = () => {
             </p>
             <a href="">read more</a>
           </article>
-          <div className="about-section-hero"></div>
+          <div className="about-section-hero">
+            <img src={closetImage} alt="" />
+          </div>
         </section>
         <ArticlesSection />
         <section className="follow-us-section">
