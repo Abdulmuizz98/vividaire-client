@@ -2,13 +2,16 @@
 .homepage-main a{
     font-family: var(--secondary-font-family);
     text-transform: uppercase;
-    font-size: var(--font-size-xsm);
     letter-spacing: 1.5px;
     font-weight: lighter;
     /* margin: 0 var(--margin-md) */
 }
 
+.homepage-main h2{
+    font-size: var(--font-size-md);
+}
 .homepage-main a{
+    font-size: 2rem;
     text-decoration: underline;
     text-underline-offset: 5px;
     text-decoration-thickness: 1.5px;

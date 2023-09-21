@@ -11,9 +11,9 @@ const IntroSection = () => {
         <h1>Welcome To Vividaire</h1>
         <VdStar />
       </div>
-      <div className="hero">
+      <figure className="hero">
         <img src="https://source.unsplash.com/1272x538/?interior" alt="" />
-      </div>
+      </figure>
       <article className="article">
         <div className="aes-border">
           <VdAesteticBorder />

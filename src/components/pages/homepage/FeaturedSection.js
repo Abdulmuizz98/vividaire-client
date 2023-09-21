@@ -5,14 +5,18 @@ const collections = [
   {
     id: 1,
     name: "home items",
-    image: "",
+    url: "https://source.unsplash.com/402x659/?home",
   },
   {
     id: 2,
     name: "lifestyle",
-    image: "",
+    url: "https://source.unsplash.com/402x659/?lifestyle",
   },
-  { id: 3, name: "easy travel", image: "" },
+  {
+    id: 3,
+    name: "easy travel",
+    url: "https://source.unsplash.com/402x659/?baggage",
+  },
 ];
 
 const FeaturedSection = () => {
@@ -24,11 +28,13 @@ const FeaturedSection = () => {
           <FeaturedCollectionCard
             key={collection.id}
             name={collection.name}
-            image={collection.image}
+            image={collection.url}
           />
         ))}
       </div>
-      <a href="">view all collection</a>
+      <p>
+        <a href="">view all collection</a>
+      </p>
     </section>
   );
 };

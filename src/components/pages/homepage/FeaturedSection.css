@@ -1,3 +1,19 @@
 .featured-section {
     padding: 0 var(--margin-md);
 }
+
+
+.featured-section .collections-container{
+    margin: 5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-section .collections-container a{
+    text-decoration: none;
+}
+
+.featured-section h2,
+.featured-section p{
+    text-align: center;
+}
