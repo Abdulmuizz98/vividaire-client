@@ -3,7 +3,7 @@
     font-family: var(--secondary-font-family);
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    font-weight: lighter;
+    font-weight: 500;
 }
 
 .homepage-main h2{

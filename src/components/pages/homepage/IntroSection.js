@@ -1,4 +1,5 @@
 import { VdAesteticBorder, VdStar } from "../../Icons";
+import heroImage from "../../../assets/hero_img.png";
 import "./IntroSection.css";
 
 const IntroSection = () => {
@@ -12,7 +13,7 @@ const IntroSection = () => {
         <VdStar />
       </div>
       <figure className="hero">
-        <img src="https://source.unsplash.com/1272x538/?interior" alt="" />
+        <img src={heroImage} alt="" />
       </figure>
       <article className="article">
         <div className="aes-border">

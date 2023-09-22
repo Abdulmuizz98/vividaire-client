@@ -1,0 +1,45 @@
+.article-card {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    font-family: var(--secondary-font-family);
+    font-size: var(--font-size-md);
+}
+
+
+.article-card.small-card{
+    width: 20.2rem;
+    height: 45.6rem;
+}
+
+.article-card.big-card{
+    width: 41.5rem;
+    height: 73.3rem;
+}
+
+.article-card.small-card figure{
+    width: 20rem;
+    height: 40.1rem;
+}
+
+.article-card.big-card figure{
+    width: 41.2rem;
+    height: 67.7rem;
+}
+
+.article-card.card-1{
+    position: absolute;
+    right: 0rem;
+}
+.article-card.card-2{
+    position: absolute;
+    left: 20.9rem;
+    bottom: 5rem;
+    
+}
+.article-card.card-3{
+    position: absolute;
+    left: -4.1rem;
+    bottom: 0rem;
+}

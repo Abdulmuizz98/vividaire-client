@@ -1,21 +1,25 @@
 import FeaturedCollectionCard from "../../FeaturedCollectionCard";
+import homeItemsOne from "../../../assets/home_items_1_img.png";
+import lifestyleOne from "../../../assets/lifestyle_1_img.png";
+import travelOne from "../../../assets/travel_1_img.png";
+
 import "./FeaturedSection.css";
 
 const collections = [
   {
     id: 1,
     name: "home items",
-    url: "https://source.unsplash.com/402x659/?home",
+    url: homeItemsOne,
   },
   {
     id: 2,
     name: "lifestyle",
-    url: "https://source.unsplash.com/402x659/?lifestyle",
+    url: lifestyleOne,
   },
   {
     id: 3,
     name: "easy travel",
-    url: "https://source.unsplash.com/402x659/?baggage",
+    url: travelOne,
   },
 ];
 

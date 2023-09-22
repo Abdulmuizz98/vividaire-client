@@ -1,9 +1,17 @@
+import "./ArticleCard.css";
+
 const ArticleCard = ({ image, id, active }) => {
   return (
-    <figure>
+    <div
+      className={`article-card ${
+        active ? "big-card" : "small-card"
+      } card-${id}`}
+    >
       <div>{id}</div>
-      <img src={image} alt="article banner" />
-    </figure>
+      <figure>
+        <img src={image} alt="article banner" />
+      </figure>
+    </div>
   );
 };
 

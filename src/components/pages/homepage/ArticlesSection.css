@@ -1,0 +1,57 @@
+.articles-section{
+    margin: 10rem 0 14.2rem 0;
+    height: 81.1rem;
+    /* border: 2px solid blue; */
+}
+.articles-section .slideshow{
+    display: flex;
+    height: 73.3rem;
+}
+
+.articles-section .slideshow .slideshow-info{
+    flex: 1 1 38%;
+    /* border: 2px solid green; */
+    padding: 0 8.6rem 0 5rem;
+}
+
+.articles-section .slideshow .slideshow-info p{
+    margin: 3.2rem 0;
+}
+.articles-section .slideshow .slideshow-info h2{
+    margin-top: 3.2rem;
+}
+.articles-section .slideshow .slideshow-info p:first-of-type{
+    font-family: var(--tertiary-font-family);   
+    font-size: var(--font-size-lg);
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.articles-section .slideshow .slideshow-info .slideshow-pagination{
+    font-family: var(--secondary-font-family);
+    font-size: 2.4rem;
+    font-weight: 400;
+    padding-left: 2.4rem;
+    margin-bottom: 20.4rem;
+}
+
+.articles-section .slideshow .slideshow-info .slideshow-pagination .lg-font{
+    font-size: var(--font-size-lg);
+}
+.articles-section .slideshow .slideshow-info .slideshow-pagination .add-space{
+
+    padding: 0 2rem;
+}
+
+.articles-section .slideshow .slideshow-cards{
+    flex: 1 1 62%;
+    /* border: 2px solid green; */
+    /* display: flex; */
+    position: relative;
+}
+
+.articles-section > p{
+    padding-top: 5rem;
+    text-align: center;
+}
+
+
