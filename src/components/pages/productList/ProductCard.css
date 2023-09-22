@@ -1,0 +1,24 @@
+.product-card{
+    border: 1px solid var(--secondary-color);
+    width: 39.9rem;
+    height: 66.7rem;
+    padding: 2rem;
+}
+
+.product-card .product-image-frame{
+    width: 35.9rem;
+    height: 35.4rem;
+    margin: auto;
+}
+
+.product-card .product-info{
+    border: 2px solid red;
+
+    margin-top: 3.2rem; 
+    overflow: hidden;
+}
+
+
+.product-card .product-info .but-button{
+    overflow: hidden;
+}

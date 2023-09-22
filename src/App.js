@@ -1,5 +1,6 @@
 import { Routes, Route, useNavigate } from "react-router-dom";
 import Homepage from "./components/pages/Homepage";
+import ProductList from "./components/pages/ProductList";
 
 import "./App.css";
 
@@ -8,8 +9,8 @@ const App = () => {
     <>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        {/* <Route path="/ourstory" element={<OurStory />} />
-        <Route path="/physicalclasses" element={<PhysicalClasses />} />
+        <Route path="/collection/:id" element={<ProductList />} />
+        {/* <Route path="/physicalclasses" element={<PhysicalClasses />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/signals" element={<Signals />} />
         <Route path="/trading-sessions" element={<TradingSessions />} />

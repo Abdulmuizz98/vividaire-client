@@ -7,7 +7,6 @@ import "./Homepage.css";
 import closetImage from "../../assets/closet_img.png";
 import tumblerOneImage from "../../assets/tumbler_one_img.png";
 import tumblerTwoImage from "../../assets/tumbler_two_img.png";
-import hero_img from "../../assets/hero_img.png";
 
 const Homepage = () => {
   return (

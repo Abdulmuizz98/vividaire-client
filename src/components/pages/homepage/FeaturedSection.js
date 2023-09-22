@@ -9,7 +9,7 @@ const collections = [
   {
     id: 1,
     name: "home items",
-    url: homeItemsOne,
+    unspacedName: "homeitems",
   },
   {
     id: 2,
@@ -33,6 +33,7 @@ const FeaturedSection = () => {
             key={collection.id}
             name={collection.name}
             image={collection.url}
+            id={collection.id}
           />
         ))}
       </div>

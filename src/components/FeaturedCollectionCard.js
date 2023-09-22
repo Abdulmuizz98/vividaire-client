@@ -1,14 +1,14 @@
 import { VdRightArrowOutline } from "./Icons";
 import "./FeaturedCollectionCard.css";
 
-const FeaturedCollectionCard = ({ name, image }) => {
+const FeaturedCollectionCard = ({ name, image, id }) => {
   return (
     <div className="featured-collection-card">
       <figure>
         <img src={image} alt={`${name} collection banner`} />
       </figure>
       <div className="collection-action">
-        <a href="">{name}</a>
+        <a href={`/collection/${id}`}>{name}</a>
         <VdRightArrowOutline />
       </div>
     </div>
