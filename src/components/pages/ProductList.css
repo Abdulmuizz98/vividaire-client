@@ -1,13 +1,10 @@
-.collection{
-    margin-bottom: 10rem;
-    
-}
 .collection .product-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 10rem;    
     margin-right: 8.4rem;
+    margin-bottom: 10rem;
     margin-left: 8.4rem;
 }
 

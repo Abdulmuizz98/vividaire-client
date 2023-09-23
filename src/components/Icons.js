@@ -120,12 +120,10 @@ export const VdDoubleCaretLeft = () => (
     <path
       d="M17.59 18L19 16.59L14.42 12L19 7.41L17.59 6L11.59 12L17.59 18Z"
       fill="#825E52"
-      fill-opacity="0.5"
     />
     <path
       d="M11 18L12.41 16.59L7.83 12L12.41 7.41L11 6L5 12L11 18Z"
       fill="#825E52"
-      fill-opacity="0.5"
     />
   </svg>
 );

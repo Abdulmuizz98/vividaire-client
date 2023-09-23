@@ -1,0 +1,48 @@
+.pagination{
+    display: flex;
+    height: 4.4rem;
+    border-top: 2px solid var(--secondary-color);
+    justify-content: space-between;
+    margin: 0 8.4rem 10rem 8.4rem;
+    align-items: center;
+    font-family: var(--secondary-font-family);
+    font-size: var(--font-size-xsm);
+
+}
+.pagination .page-nav{
+    display: flex;
+    width: 62.4rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.pagination .page-nav .number-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 34.3rem;
+    height: 100%;
+}
+
+
+.pagination .page-nav .number-page .page-number{
+    height: 100%;
+    width: 3.43rem;
+} 
+.pagination .page-nav .number-page .page-number.active-page{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+} 
+
+.pagination .page-nav .first-page,
+.pagination .page-nav .last-page{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 0.4rem;
+}
+
+.pagination .page-nav .first-page{
+    opacity: 0.5;
+}

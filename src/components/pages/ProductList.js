@@ -6,6 +6,7 @@ import PlaceholderImage from "../../assets/boho_table_mats_img.png";
 
 import "./ProductList.css";
 import { VdAdd } from "../Icons";
+import Pagination from "../Pagination";
 
 const collections = [
   {
@@ -115,7 +116,7 @@ const ProductList = () => {
                   />
                 ))}
             </div>
-            <div className="pagination"> </div>
+            <Pagination />
           </div>
         )}
       </main>
