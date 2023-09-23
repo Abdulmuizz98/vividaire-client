@@ -28,18 +28,57 @@ const collections = [
 const products = [
   {
     id: 1,
-    name: "boho mat",
+    name: "Boho table mat",
     url: PlaceholderImage,
+    isFavorite: true,
   },
   {
     id: 2,
-    name: "boho mat",
+    name: "Boho table mat",
     url: PlaceholderImage,
+    isFavorite: false,
   },
   {
     id: 3,
-    name: "boho mat",
+    name: "Boho table mat",
     url: PlaceholderImage,
+    isFavorite: true,
+  },
+  {
+    id: 4,
+    name: "Boho table mat",
+    url: PlaceholderImage,
+    isFavorite: false,
+  },
+  {
+    id: 5,
+    name: "Boho table mat",
+    url: PlaceholderImage,
+    isFavorite: false,
+  },
+  {
+    id: 6,
+    name: "Boho table mat",
+    url: PlaceholderImage,
+    isFavorite: false,
+  },
+  {
+    id: 7,
+    name: "Boho table mat",
+    url: PlaceholderImage,
+    isFavorite: false,
+  },
+  {
+    id: 8,
+    name: "Boho table mat",
+    url: PlaceholderImage,
+    isFavorite: false,
+  },
+  {
+    id: 9,
+    name: "Boho table mat",
+    url: PlaceholderImage,
+    isFavorite: false,
   },
 ];
 
@@ -62,7 +101,11 @@ const ProductList = () => {
             <div className="product-list">
               {products.length &&
                 products.map((product) => (
-                  <ProductCard name={product.name} image={product.url} />
+                  <ProductCard
+                    name={product.name}
+                    image={product.url}
+                    isFavorite={product.isFavorite}
+                  />
                 ))}
             </div>
             <div className="pagination"> </div>

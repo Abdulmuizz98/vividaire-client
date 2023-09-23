@@ -14,7 +14,7 @@ export const VdClose = () => (
   </svg>
 );
 
-export const VdFavorite = () => (
+export const VdFavoriteOutline = () => (
   <svg
     className="icon"
     width="24"
@@ -246,5 +246,20 @@ export const VdAesteticBorder = () => (
     <circle cx="43" cy="5" r="5" fill="#825E52" />
     <circle cx="66.5" cy="5" r="2.5" fill="#825E52" />
     <circle cx="83.5" cy="5" r="2.5" fill="#825E52" />
+  </svg>
+);
+
+export const VdCaretDown = () => (
+  <svg
+    width="12"
+    height="8"
+    viewBox="0 0 12 8"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M1.41 0.295044L6 4.87504L10.59 0.295044L12 1.70504L6 7.70504L0 1.70504L1.41 0.295044Z"
+      fill="#825E52"
+    />
   </svg>
 );

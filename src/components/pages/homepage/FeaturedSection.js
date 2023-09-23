@@ -9,7 +9,7 @@ const collections = [
   {
     id: 1,
     name: "home items",
-    unspacedName: "homeitems",
+    url: homeItemsOne,
   },
   {
     id: 2,

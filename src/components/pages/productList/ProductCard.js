@@ -1,20 +1,25 @@
-import { VdCaretRight } from "../../Icons";
+import { VdCaretDown, VdFavoriteOutline } from "../../Icons";
 import Button from "../../Button";
 import "./ProductCard.css";
 
-const ProductCard = ({ name, image }) => {
+const ProductCard = ({ name, image, isFavorite }) => {
   return (
     <div className="product-card">
       <figure className="product-image-frame">
         <img src={image} alt={`${name} image`} />
       </figure>
       <div className="product-info">
-        <p>{name}</p>
-        <p className="product-toggle-detail">
-          See more detail <VdCaretRight />
-        </p>
+        <div className="product-name">
+          {name} {<VdFavoriteOutline />}
+        </div>
+        <div className="product-toggle-detail">
+          <a href="">See more detail</a>
+          <a href="">
+            <VdCaretDown />
+          </a>
+        </div>
         <div className="product-detail"></div>
-        <div className="buy-botton">
+        <div className="buy-button">
           <Button
             value="BUY MINE"
             bgdColor="#825E52"

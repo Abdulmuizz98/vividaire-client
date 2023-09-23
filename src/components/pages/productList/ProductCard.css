@@ -3,22 +3,39 @@
     width: 39.9rem;
     height: 66.7rem;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .product-card .product-image-frame{
     width: 35.9rem;
-    height: 35.4rem;
-    margin: auto;
+    height: 39.4rem;
+    border: 1px solid var(--secondary-color);
 }
 
 .product-card .product-info{
-    border: 2px solid red;
-
-    margin-top: 3.2rem; 
     overflow: hidden;
 }
 
+.product-card .product-info .product-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: var(--font-size-lg);
+    margin-bottom: 2.5rem;
 
-.product-card .product-info .but-button{
-    overflow: hidden;
+}
+
+.product-card .product-info .product-toggle-detail{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-bottom: 5rem;
+}
+
+
+.product-card .product-info .buy-button {
+    font-family: var(--secondary-font-family);
+    font-size: var(--font-size-sm);
 }

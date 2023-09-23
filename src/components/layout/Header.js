@@ -1,5 +1,10 @@
 import "./Header.css";
-import { VdPerson, VdSearch, VdFavorite, VdDoublePolygon } from "../Icons";
+import {
+  VdPerson,
+  VdSearch,
+  VdFavoriteOutline,
+  VdDoublePolygon,
+} from "../Icons";
 
 const Header = () => {
   return (
@@ -34,7 +39,7 @@ const Header = () => {
           </li>
           <li className="place-items-center">
             <a href="#" className="place-items-center">
-              <VdFavorite />
+              <VdFavoriteOutline />
             </a>
           </li>
         </ul>
