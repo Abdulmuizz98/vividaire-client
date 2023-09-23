@@ -5,6 +5,7 @@ import ProductCard from "./productList/ProductCard";
 import PlaceholderImage from "../../assets/boho_table_mats_img.png";
 
 import "./ProductList.css";
+import { VdAdd } from "../Icons";
 
 const collections = [
   {
@@ -90,14 +91,20 @@ const ProductList = () => {
 
   return (
     <>
-      <Header />
+      <Header displayLogo={false} />
       <main>
         {collectionId && (
           <div className="collection">
             <div className="heading">
+              <div className="fancy-line"></div>
               <h1>{collection.name}</h1>
             </div>
-            <div className="product-filter"></div>
+            <div className="product-filter">
+              <span className="position-left">
+                <VdAdd />
+              </span>
+              <span className="position-middle">filter</span>
+            </div>
             <div className="product-list">
               {products.length &&
                 products.map((product) => (

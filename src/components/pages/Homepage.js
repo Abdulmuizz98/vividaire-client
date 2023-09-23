@@ -11,7 +11,7 @@ import tumblerTwoImage from "../../assets/tumbler_two_img.png";
 const Homepage = () => {
   return (
     <>
-      <Header />
+      <Header displayLogo={true} />
       <main class="homepage-main">
         <IntroSection />
         <FeaturedSection />

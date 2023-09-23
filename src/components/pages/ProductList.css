@@ -1,14 +1,60 @@
+.collection{
+    margin-bottom: 10rem;
+    
+}
 .collection .product-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 10rem;
-    
-}
-
-.collection{
+    row-gap: 10rem;    
     margin-right: 8.4rem;
     margin-left: 8.4rem;
-    margin-bottom: 10rem;
-    
+}
+
+.collection .product-filter{
+    width: 35.3rem;
+    height: 5rem;
+    margin-left: auto;
+    margin-right: 8.4rem;
+    margin-bottom: 3.2rem; 
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    position: relative;
+    text-transform: uppercase;
+    font-family: var(--secondary-font-family);
+    font-size: var(--font-size-sm);
+}
+
+.collection .product-filter span.position-left{
+    position: absolute;
+    left: 3.2rem;
+    top: 50%;
+    transform: translateY(-40%) ;
+}
+.collection .product-filter span.position-middle{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) ;
+}
+
+.collection .heading{
+    text-transform: uppercase;
+    font-family: var(--tertiary-font-family);
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    margin-bottom: 7.3rem;
+    margin-top: 10rem;
+}
+
+.collection .heading h1{
+    font-size: 5rem;
+    font-weight: lighter;
+}
+
+.collection .heading .fancy-line{
+    height: 0.1rem;
+    width: 31.5rem;
+    background-color: var(--secondary-color);
 }

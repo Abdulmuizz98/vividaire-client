@@ -6,7 +6,7 @@ import {
   VdDoublePolygon,
 } from "../Icons";
 
-const Header = () => {
+const Header = ({ displayLogo }) => {
   return (
     <header className="header">
       <nav className="nav">
@@ -22,7 +22,11 @@ const Header = () => {
           </li>
         </ul>
         <div>
-          <a href="#" className="place-items-center">
+          <a
+            href="#"
+            className="place-items-center"
+            style={{ display: `${!displayLogo && "none"}` }}
+          >
             <VdDoublePolygon color="#825E52" width={44} height={44} />
           </a>
         </div>
