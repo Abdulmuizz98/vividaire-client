@@ -1,0 +1,56 @@
+.prompt{
+    width: 55.8rem;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: var(--primary-color);
+    transform: translate(-50%, -50%);
+    display: flex;
+    color: var(--primary-color);
+    gap: 0.2rem;
+}
+
+.prompt .prompt-hero{
+    height: 21.4rem;
+}
+
+.prompt .prompt-info{
+    background-color: var(--secondary-color);
+    padding: 7rem 10rem;
+}
+
+.prompt .prompt-info p{
+    text-align: center;
+    margin: 3.2rem 0;
+    font-weight: 300;
+}
+.prompt .prompt-info p.title{
+    text-transform: uppercase;
+    margin-top: 0;
+    font-family: var(--tertiary-font-family);
+    font-size: var(--font-size-lg);
+}
+
+
+.prompt .prompt-info .actions{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.prompt .prompt-info .actions a{
+    font-size: 2rem;
+    font-family: var(--secondary-font-family);
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1px;
+}
+
+.prompt .inline-button.position-top-right{
+    position: absolute;
+    top: 2.4rem;
+    right: 2.4rem;
+}

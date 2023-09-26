@@ -3,10 +3,13 @@ import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 import ProductCard from "./productList/ProductCard";
 import PlaceholderImage from "../../assets/boho_table_mats_img.png";
-
-import "./ProductList.css";
+import { toggleFilterDropdown } from "../../utils";
 import { VdAdd } from "../Icons";
 import Pagination from "../Pagination";
+import FilterDropdown from "../FilterDropdown";
+import LoginPrompt from "../prompts/LoginPrompt";
+import InlineButton from "../InlineButton";
+import "./ProductList.css";
 
 const collections = [
   {
@@ -14,16 +17,55 @@ const collections = [
     name: "home items",
     unspacedName: "homeitems",
     url: "",
+    tags: [
+      "Bedroom",
+      "Kitchen",
+      "Living room",
+      "Dining room",
+      "Bathroom",
+      "Outdoor",
+      "Organization",
+    ],
   },
   {
     id: 2,
     name: "lifestyle",
     url: "",
+    tags: [
+      "Beauty & personal care",
+      "Fitness & wellness",
+      "Books",
+      "Electronics",
+    ],
   },
   {
     id: 3,
     name: "easy travel",
     url: "",
+    tags: ["Luggage & bags", "Gears & accessories"],
+  },
+  {
+    id: 4,
+    name: "car accessories",
+    url: "",
+    tags: ["Interior accessories", "Exterior accessories"],
+  },
+  {
+    id: 5,
+    name: "kids",
+    url: "",
+    tags: [
+      "Toys and games",
+      "Kid's kitchen",
+      "Gears & electronics",
+      "Sports & outdoor",
+    ],
+  },
+  {
+    id: 6,
+    name: "workspace",
+    url: "",
+    tags: ["Writing & paper", "Desk accessories", "Organization"],
   },
 ];
 
@@ -94,6 +136,7 @@ const ProductList = () => {
     <>
       <Header displayLogo={false} />
       <main>
+        <LoginPrompt />
         {collectionId && (
           <div className="collection">
             <div className="heading">
@@ -101,10 +144,13 @@ const ProductList = () => {
               <h1>{collection.name}</h1>
             </div>
             <div className="product-filter">
-              <span className="position-left">
-                <VdAdd />
-              </span>
+              <InlineButton
+                value={<VdAdd />}
+                classString="position-left"
+                onClick={toggleFilterDropdown}
+              />
               <span className="position-middle">filter</span>
+              <FilterDropdown tags={collection.tags} />
             </div>
             <div className="product-list">
               {products.length &&

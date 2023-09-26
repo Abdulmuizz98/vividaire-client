@@ -22,7 +22,8 @@
 
 /* Import font */
 /* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Poppins:wght@500&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Poppins:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Poppins:wght@100;200;300;400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Poppins:wght@100;200;300;500&display=swap'); */
 
 /* Custom properties */
 :root{
@@ -125,7 +126,16 @@ ul{
   justify-content: end;
   align-items: end;
 }
+.place-items-left{
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   opacity: 1; /* Firefox */
+}
+
+.hidden{
+  display: none;
 }

@@ -23,7 +23,7 @@ const Header = ({ displayLogo }) => {
         </ul>
         <div>
           <a
-            href="#"
+            href="/"
             className="place-items-center"
             style={{ display: `${!displayLogo && "none"}` }}
           >

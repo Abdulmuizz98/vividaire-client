@@ -1,0 +1,71 @@
+/* .filter-checkbox {
+    display: none;
+}
+  
+.filter-checkbox + label {
+    position: relative;
+    padding-left: 30px; 
+    cursor: pointer;
+}
+  
+.filter-checkbox + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px; 
+    height: 20px; 
+    border: 2px solid #000; 
+    border-radius: 50%; 
+}
+  
+.filter-checkbox:checked + label:before {
+    background-color: #000;
+} */
+
+.filter-dropdown{
+    width: 35.3rem;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 3.2rem;
+    padding-top: 10.6rem;
+    font-family: var(--primary-font-family);
+    position: relative;
+    font-size: var(--font-size-rg);
+}
+
+.filter-dropdown .inline-button.clear-btn{
+    font-family: var(--secondary-font-family);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1px;
+    text-transform: uppercase;
+    font-size: var(--font-size-sm);
+}
+
+.filter-dropdown .tags{
+    margin-bottom: 5rem;
+    font-weight: 300;
+}
+
+.filter-dropdown .tags .tag{
+    margin: 3.2rem 0;
+}
+
+.filter-dropdown .tags .tag:first-of-type{
+    margin-top: 0;
+}
+
+.filter-dropdown .tags .tag:last-of-type{
+    margin-bottom: 0;
+}
+
+.filter-dropdown .tags .tag label{
+    margin: 0 1.6rem;
+}
+
+.filter-dropdown span.position-top-left{
+    position: absolute;
+    left: 3.2rem;
+    top: 3.2rem;
+}

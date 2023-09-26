@@ -14,7 +14,7 @@ const ProductCard = ({ name, image, isFavorite }) => {
         </div>
         <div className="product-toggle-detail">
           <a href="">See more detail</a>
-          <a href="">
+          <a href="" className="place-items-center">
             <VdCaretDown />
           </a>
         </div>
