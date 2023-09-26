@@ -129,7 +129,6 @@ const products = [
 const ProductList = () => {
   const params = useParams();
   const collectionId = params.id;
-  console.log("Collectionid", collectionId);
   const collection = collections[collectionId - 1];
 
   return (
